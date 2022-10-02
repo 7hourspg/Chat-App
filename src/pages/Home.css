@@ -1,0 +1,135 @@
+.home_ctr {
+  width: 100%;
+  height: 46.2rem;
+  /* border: 2px solid red; */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner_ctr {
+  width: 70rem;
+  height: 40rem;
+  /* border: 2px solid black; */
+  display: flex;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.left_ctr {
+  flex: 1;
+  /* border: 2px solid red; */
+  background-color: black;
+}
+.right_ctr {
+  flex: 2;
+  border: 1px solid rgb(108, 108, 108);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.left_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: black;
+  border-bottom: 1px solid black;
+}
+.left_header img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user_box {
+  width: auto;
+  overflow: hidden;
+}
+.user_box input {
+  width: 100%;
+  padding: 0.5rem 0;
+  outline: none;
+  border: none;
+  /* background-color: transparent; */
+  background-color: grey;
+  border-bottom: 1px solid black;
+  padding-left: 0.5rem;
+  color: white;
+}
+.user_box ::placeholder {
+  color: white;
+}
+.user_box .each_user{
+  /* margin-top: 1rem; */
+  /* margin: 1rem .5rem; */
+  height: 5rem;
+  /* height: 5rem; */
+  color: white;
+  display: flex;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(69, 59, 59);
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.user_box .each_user:hover{
+  background-color: rgba(71, 71, 71, 0.632);
+}
+
+.user_box .each_user img{
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+margin-left: 1rem;
+object-fit: cover;
+background-color: red ;
+padding: .1rem;
+
+}
+.user_box .name_chat{
+  margin-left: 1rem;
+}
+.user_box .name_chat .chat{
+color: gainsboro;
+font-size: .8rem;
+}
+.right_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 1px solid black;
+}
+.right_header .right_h_left img{
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+object-fit: cover;
+}
+.right_header .img_ctr{
+  display: flex;
+  color: white;
+  align-items: center;
+  min-width: 9rem;
+  justify-content: space-around;
+  gap: .5rem;
+}
+
+.right_h_rght{
+  width: 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+.right_h_rght .icon{
+  cursor: pointer;
+}
+.right_ctr .messages{
+ overflow-y: scroll;
+ min-height: 31.2rem;
+ 
+  
+}
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,47 @@
+
+div {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.login_ctr {
+  overflow: hidden;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 45.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_ctr form{
+  width: 20rem;
+  height: 20rem;
+  /* border: 1px solid red; */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.login_ctr form input{
+    width: 100%;
+  padding: .5rem 0;
+  outline: none;
+  border-bottom: 2px solid red;
+}
+.login_ctr form .btn{
+    background-color: black;
+    padding: .5rem 1.5rem ;
+    color: white;
+    cursor: pointer;
+}
+.login_ctr form p{
+    font-size: .8rem;
+    color: grey;
+}
+.login_ctr form strong{
+    color: red;
+    cursor: pointer;
+}

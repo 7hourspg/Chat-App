@@ -1,0 +1,23 @@
+.send_ctr{
+    display: flex;
+}
+.send_ctr input{
+    width: 100%;
+    padding: .5rem 0;
+    background-color: black;
+    outline: none;
+    border-right-color: black;
+    color: white;
+    
+}
+.send_ctr .send_box{
+    padding: 1rem 0 ;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.send_ctr .send_box .send_btn{
+    cursor: pointer;
+}
